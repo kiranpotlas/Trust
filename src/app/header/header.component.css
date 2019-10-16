@@ -1,0 +1,16 @@
+div{
+    background-color: rgba(0,123,255,.25);
+    border: 2px solid #6892af;
+}
+h1{
+ color:blue;
+ font: outline;
+ font-family: '-webkit-pictograph';
+ text-align: center
+}
+.alert {
+    margin-bottom:0; 
+}
+.fade {
+    transition: opacity .15s linear;
+}

@@ -1,0 +1,8 @@
+<div class="card" style="width: 33%;">
+  <div class="card-body" *ngFor="let todo of todos " style="border: 1ch; max-width:33%;">
+    <h5 class="card-title">{{todo.title}}</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">{{todo.completed}}</li>
+  </ul>
+</div>
